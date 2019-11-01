@@ -1,0 +1,123 @@
+html {
+    background-color: #fbf9d7;
+    overflow-y: scroll;
+}
+
+@media (max-width: 980px) {
+    body {
+        margin: 8px auto;
+        padding: 8px;
+        width: auto;
+        background-color: #e1e9ff;
+        border-radius: 10px;
+    }
+}
+
+.me {
+    width: 400px;
+    margin: 10px 0;
+}
+
+main {
+    min-height: 470px;
+    width: 900px;
+    padding-left: 35px;
+}
+
+main p {
+  line-height: 22px;
+  margin: 12px 0px;
+}
+
+
+h1 {
+    color: #5959db;
+    text-shadow: 2px 2px 4px yellow;
+}
+
+.site-header {
+    background-color: #fff;
+    overflow: auto; /* clear fix to make div span all elements */
+}
+
+.site-header img {
+    float: left;
+    width: 250px;
+}
+
+.byline {
+    display: block;
+    width: 470px;
+    border: 1px solid #000;
+    border-radius: 6px;
+}
+
+.byline img {
+    float: left;
+    padding: 10px;
+    width: 100px;
+}
+
+
+.site-title {
+    display: block;
+    padding-top: 1em;
+    font-size: 32px;
+    overflow: auto;
+}
+
+.site-slogan {
+    display: block;
+    font-style: italic;
+    overflow: auto;
+}
+
+.navbar {
+    padding: 1em;
+    background-color: #fff;
+    border-top: 1px solid #9c9;
+}
+
+.navbar a {
+    display: inline-block;
+    padding: 0.5em 1em;
+    border: 1px solid #999;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #fffdd0;
+    text-decoration: underline;
+}
+
+.navbar .selected {
+    background-color: #fffdd0;
+}
+
+table {
+    background-color: #f6f6f6;
+    border: 1px solid #666;
+    padding-top: 10px;
+}
+
+th {
+    background-color: #666;
+    color: #fff;
+}
+
+th,
+td {
+    padding: 0.5em;
+}
+
+td {
+    border-bottom: 1px solid #999;
+}
+
+tr:hover {
+    background-color: #eee;
+}
+
+input[type=search] {
+    width: 30em;
+}
